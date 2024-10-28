@@ -53,3 +53,115 @@ body {
   border: none;
 }
 /* ***** REUSEABLE STYLES END ***** */
+/* ***** ARRIVALE STYLES ***** */
+#arrivale{
+  padding-bottom: 130px;;
+}
+.arrivaleTitle{
+  font-size: 39px;
+  font-weight: var(--font-bold);
+  margin-bottom: 48px;
+}
+.arrivaleTop{
+  margin-bottom: 118px;
+}
+.arrivaleTop__leftButton{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #979797;
+  z-index: 5;
+  color: var(--color-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all linear .1s;
+}
+.arrivaleTop__leftButton:hover{
+  background-color: var(--color-six);
+  font-size: 20px;
+}
+.arrivaleTop__rightButton{
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #979797;
+  z-index: 5;
+  color: var(--color-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all linear .1s;
+}
+.arrivaleTop__rightButton:hover{
+  background-color: var(--color-six);
+  font-size: 20px;
+}
+.arrivaleTopItem__banner{
+  position: relative;
+  overflow: hidden;
+}
+.arrivaleTopItem__banner:hover .arrivaleTopItem__overlay{
+  bottom: 0;
+}
+.arrivaleTopItem__overlay{
+  position: absolute;
+  bottom: -167px;
+  left: 0;
+  background-color: var(--color-light);
+  padding: 18px 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  row-gap: 8px;
+  transition: all ease-out .5s;
+  width: 100%;
+}
+.arrivaleTopItem__overlay a{
+  color: var(--color-five);
+  transition: all linear .1s;
+}
+.arrivaleTopItem__overlay a:hover{
+  color: var(--color-dark);
+  font-weight: var(--font-bold);
+}
+.arrivaleTopItem__overlay a i{
+  color: var(--color-six);
+  margin-left: 10px;
+}
+.arrivaleTopItemBuyLink{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.btnPrimary--buyLink{
+  padding: 8px 30px;
+  font-size: 14px;
+  transition: all linear .2s;
+}
+.btnPrimary--buyLink:hover{
+  background-color: var(--color-five);
+}
+.arrivaleTopItemDetails{
+  margin-top: 24px;
+}
+.arrivaleTopItemDetails__titlePrice h5{
+  font-size: 20px ;
+  font-weight: var(--font-bold);
+  color: var(--color-six);
+}
+.arrivaleTopItemDetails__titlePrice p{
+  color: var(--color-five);
+}
+.arrivaleTopItemDetails p{
+  color: var(--color-six);
+}
+/* ***** ARRIVALE STYLES ***** */
