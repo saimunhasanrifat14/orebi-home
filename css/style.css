@@ -53,3 +53,55 @@ body {
   border: none;
 }
 /* ***** REUSEABLE STYLES END ***** */
+
+/* ***** SALES PART STYLES END ***** */
+#SalePart {
+  padding-bottom: 128px;
+}
+
+.sale_item_left {
+  background-color: var(--color-light);
+  border-radius: 8px;
+}
+
+.text_with_btn {
+  width: 286px;
+  height: 238px;
+  position: absolute;
+  bottom: 40px;
+  left: 54px;
+}
+
+.saleItems_heading {
+  font-size: 39px;
+  font-weight: var(--font-bold);
+  margin-bottom: 50px;
+}
+
+.saleItems_paragraph {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.83px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.btnPrimary:hover {
+  background-color: #bb2828;
+}
+
+.sale_item_right {
+  background-color: var(--color-light);
+  border-radius: 8px;
+}
+
+.text_with_btn_right {
+  width: 286px;
+  height: 238px;
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+}
+
+/* ***** SALES PART STYLES END ***** */
