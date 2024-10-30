@@ -10,7 +10,6 @@
   --font-bold: 700;
   --font-extra-bold: 800;
   --font-black: 900;
-
   /* color related custom properties */
   --color-light: #ffffff;
   --color-dark: #000000;
@@ -271,3 +270,32 @@ footer {
 }
 
 /* ***** SALES PART STYLES END ***** */
+/* ***** Phone part ***** */
+#PhonePart {
+  margin-bottom: 128px;
+}
+
+.phone__part--bnt {
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+.phone__part--bnt:hover {
+  background-color: var(--color-five);
+}
+
+.phone_part {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  font-family: "DM Sans", sans-serif;
+}
+.button {
+  color: white;
+  background-color: #262626;
+  font-family: "DM Sans", sans-serif;
+}
+/* ***** Phone part ***** */
